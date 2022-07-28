@@ -10,8 +10,8 @@ Anda dapat membuat conda environment (lebih detil [di sini](https://docs.conda.i
 
 ```python
 conda create --name gis -c conda-forge earthengine-api
+conda activate gis
 conda install jupyter notebook
 conda install geopandas
 conda install -c conda-forge ipyleaflet
-conda activate gis
 ```
