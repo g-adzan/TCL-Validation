@@ -1,12 +1,12 @@
-# Driver of deforestation mapping tool
+# Driver of deforestation labeling tool
 
-Untuk menjalankan tool ini, Anda perlu membuat Python virtual environment dan melakukan instalasi beberapa Python package, direkomendasikan menggunakan `conda`.
+Driver of deforestation labeling is built under `Jupyter Notebook` platform. 
 
-Pertama, Anda perlu memastikan bahwa Python dan `anaconda` telah terinstall. Ketika meng-install `anaconda`, Python3 otomatis akan terpasang pada komputer pengguna. Instalasi `anaconda` dapat dilihat [di sini](https://docs.anaconda.com/anaconda/install/index.html).
+First, please ensure `phyton` and `anaconda` are successfully installed on your computer. When installing `anaconda`, `python3` will be automatically installed as well. You can download the `anaconda` installer [here](https://docs.anaconda.com/anaconda/install/index.html).
 
-Kedua, Anda harus memiliki akun [Google Earth Engine](https://earthengine.google.com/) ([sign up](https://accounts.google.com/signin/v2/identifier?service=ah&passive=true&continue=https%3A%2F%2Fuc.appengine.google.com%2F_ah%2Fconflogin%3Fcontinue%3Dhttps%3A%2F%2Fsignup.earthengine.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin)).
+You must have [Google Earth Engine](https://earthengine.google.com/) ([sign up](https://accounts.google.com/signin/v2/identifier?service=ah&passive=true&continue=https%3A%2F%2Fuc.appengine.google.com%2F_ah%2Fconflogin%3Fcontinue%3Dhttps%3A%2F%2Fsignup.earthengine.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin)) account as this program will be hugely relied on dataset stored in GEE.
 
-Anda dapat membuat conda environment (lebih detil [di sini](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)) dan memasang beberapa Python package dengan command berikut:
+After fresh installing `anaconda` you have to make `conda` environment and install several important packages below:
 
 ```python
 conda create --name gis
