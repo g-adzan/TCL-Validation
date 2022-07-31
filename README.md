@@ -14,4 +14,5 @@ conda activate gis
 conda install jupyter notebook
 conda install geopandas
 conda install -c conda-forge ipyleaflet
+conda install -c conda-forge voila
 ```
