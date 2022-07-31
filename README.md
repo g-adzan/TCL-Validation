@@ -1,6 +1,6 @@
 # Driver of deforestation labeling tool
 
-Driver of deforestation labeling is built under `Jupyter Notebook` platform. 
+Driver of deforestation labeling tool is built under `Jupyter Notebook` platform. 
 
 First, please ensure `phyton` and `anaconda` are successfully installed on your computer. When installing `anaconda`, `python3` will be automatically installed as well. You can download the `anaconda` installer [here](https://docs.anaconda.com/anaconda/install/index.html).
 
