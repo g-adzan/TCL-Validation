@@ -9,10 +9,11 @@ Kedua, Anda harus memiliki akun [Google Earth Engine](https://earthengine.google
 Anda dapat membuat conda environment (lebih detil [di sini](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)) dan memasang beberapa Python package dengan command berikut:
 
 ```python
-conda create --name gis -c conda-forge earthengine-api
+conda create --name gis
 conda activate gis
 conda install jupyter notebook
 conda install geopandas
+conda install -c conda-forge earthengine-api
 conda install -c conda-forge ipyleaflet
 conda install -c conda-forge voila
 ```
