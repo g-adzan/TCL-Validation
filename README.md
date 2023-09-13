@@ -15,5 +15,5 @@ conda install -c conda-forge earthengine-api
 conda install -c conda-forge geopandas
 conda install -c conda-forge ipyleaflet
 conda install -c conda-forge voila
-conda install jupyter notebook
+conda install -c conda-forge notebook
 ```
